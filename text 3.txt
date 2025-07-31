@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Syrian Seafarers Representation</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <img src="logo.png" alt="Syrian Seafarers Logo" class="logo"/>
+    <h1>Syrian Seafarers Representation Project</h1>
+    <p class="subtitle">Official Website – Representing Syrian Maritime Professionals Worldwide</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>About the Initiative</h2>
+      <p>
+        This independent initiative is led by <strong>Mhmad Mostafa Mansour</strong>,
+        a certified Second Officer and proud <strong>Member of The Nautical Institute (MNI)</strong>,
+        aiming to represent, support, and protect the rights of Syrian seafarers globally.
+      </p>
+    </section>
+
+    <section>
+      <h2>Our Vision</h2>
+      <p>
+        To establish a recognized and trusted platform for Syrian maritime professionals to voice their concerns, 
+        connect with international maritime organizations, and enhance their career and legal rights.
+      </p>
+    </section>
+
+    <section>
+      <h2>Current Activities</h2>
+      <ul>
+        <li>Communicating with global unions and maritime human rights organizations.</li>
+        <li>Collecting real-time reports from Syrian seafarers at sea and in ports.</li>
+        <li>Launching awareness campaigns about violations and unsafe working conditions.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:Mhmadmansour72@gmail.com">Mhmadmansour72@gmail.com</a></p>
+      <p>Phone/WhatsApp: +380633163884</p>
+      <p>LinkedIn: <a href="https://www.linkedin.com/in/moe69mansour" target="_blank">Moe69Mansour</a></p>
+    </section>
+
+    <section>
+      <h2>Site Status</h2>
+      <p>This site is actively maintained from aboard a vessel currently operating in international waters.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Syrian Seafarers Representation. All rights reserved.</p>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,23 @@
+# Syrian Seafarers Representation Website
+
+**This repository contains the official files for the Syrian Seafarers Representation Project**, an independent initiative led by Mhmad Mostafa Mansour, MNI member and certified Second Officer.
+
+## 🌍 Website
+
+Live at: [https://manoboni.github.io/syrian-seafarers-org/](https://manoboni.github.io/syrian-seafarers-org/)
+
+## 🧭 Mission
+
+To represent, support, and empower Syrian maritime professionals, and connect them with international organizations for legal protection, rights advocacy, and professional growth.
+
+## 📁 Files
+
+- `index.html`: Main webpage.
+- `style.css`: Styling and layout.
+- `logo.png`: Project logo.
+
+## 📫 Contact
+
+- Email: Mhmadmansour72@gmail.com
+- LinkedIn: [Moe69Mansour](https://www.linkedin.com/in/moe69mansour)
+- WhatsApp: +380633163884
