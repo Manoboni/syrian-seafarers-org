@@ -1,0 +1,164 @@
+body {
+  background: #0a0a0a;
+  color: #e6c970;
+  font-family: 'Georgia', serif;
+  margin: 0; padding: 0;
+  direction: rtl;
+}
+
+header {
+  text-align: center;
+  padding: 40px 20px;
+  position: relative;
+}
+
+#logo {
+  width: 140px;
+  margin: 0 auto 15px auto;
+}
+
+nav {
+  background: #111;
+  padding: 12px;
+  text-align: center;
+}
+
+nav a {
+  color: #d4af37;
+  margin: 0 18px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #fff;
+}
+
+section {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 0 20px;
+}
+
+h2 {
+  font-size: 28px;
+  margin-bottom: 18px;
+  border-bottom: 2px solid #d4af37;
+  display: inline-block;
+  padding-bottom: 6px;
+}
+
+p, li {
+  font-size: 17px;
+  line-height: 1.6;
+}
+
+ul {
+  padding-inline-start: 20px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+  color: #888;
+  background: #111;
+  margin-top: 50px;
+}
+
+.btn-golden {
+  display: inline-block;
+  background: #d4af37;
+  color: #0a0a0a;
+  padding: 14px 30px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 8px;
+  margin-top: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-golden:hover {
+  background-color: #b28922;
+}
+
+/* العلم */
+#flag {
+  width: 140px;
+  height: 200px;
+  background: linear-gradient(180deg, #0a0a0a 0%, #0a0a0a 40%, #d4af37 40%, #d4af37 60%, #0a0a0a 60%, #0a0a0a 100%);
+  margin: 25px auto;
+  border-radius: 8px;
+  position: relative;
+  box-shadow: 0 0 12px #d4af37aa;
+}
+
+#flag:before {
+  content: "🜂";
+  font-size: 72px;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #d4af37;
+  text-shadow: 0 0 12px #d4af37bb;
+}
+
+/* ختم مفرغ */
+#seal {
+  width: 130px;
+  height: 130px;
+  border: 3px solid #d4af37;
+  border-radius: 50%;
+  margin: 30px auto 10px auto;
+  position: relative;
+  box-shadow: 0 0 12px #d4af37bb;
+}
+
+#seal:before {
+  content: "𓂀";
+  font-size: 72px;
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #d4af37;
+  opacity: 0.7;
+}
+
+#seal-text {
+  position: absolute;
+  width: 100%;
+  top: 10px;
+  left: 0;
+  text-align: center;
+  font-size: 13px;
+  letter-spacing: 2px;
+  font-weight: bold;
+  color: #d4af37;
+}
+
+.subtitle {
+  font-style: italic;
+  margin-top: -12px;
+  margin-bottom: 30px;
+  color: #d4af37cc;
+}
+
+/* تأثير نبض بسيط على رمز الشعلة */
+#logo text {
+  animation: pulseGlow 2s infinite alternate;
+}
+
+@keyframes pulseGlow {
+  0% {
+    fill: #d4af37;
+    filter: drop-shadow(0 0 5px #d4af37);
+  }
+  100% {
+    fill: #fff;
+    filter: drop-shadow(0 0 15px #fff);
+  }
+}
